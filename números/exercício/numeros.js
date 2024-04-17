@@ -3,6 +3,7 @@ console.log(total)
 
 var dia = 'dia 18' / 2
 console.log(isNaN(dia))
+console.log(dia)
 
 var n1 = +'200'
 var n2 = 50
