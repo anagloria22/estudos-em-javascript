@@ -21,3 +21,6 @@ if((5 - 10) && (5 + 5)) { //por 5-10 ser um número negativo, mesmo que seja neg
 } else {
     console.log('Falso')
 }
+
+var condicional = (5 - 5) || (5 + 5) && (10 - 2) //quando colocamos && ele passa a retornar 8, porque é o último verdadeiro. No || ele retornava 10, porque para ou basta ter um verdadeiro, e neste caso era o resultado de 5 + 5
+    console.log(condicional)
