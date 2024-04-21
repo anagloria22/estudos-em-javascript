@@ -26,7 +26,11 @@ var totalbr = brasil.toLocaleString('pt-br')
 var china = 1340 * 1000000
 var totalch = china.toLocaleString('pt-br')
 console.log(`A população total do Brasil é de ${totalbr}, enquanto a da China é de ${totalch}`)
-
+if(brasil > china) {
+    console.log('Brasil tem mais habitantes')
+} else {
+    console.log('Brasil tem menos habitantes')
+}
 
 
 if(('Gato' == 'gato') && (5 > 2)) {
