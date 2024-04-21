@@ -12,35 +12,11 @@ var expressao = (5 - 2) && (5 - ' ') && (5 - 2)
 console.log(expressao)
 
 var nome = 'Ana'
-if (nome) {
-    console.log('É verdadeiro')
-} else {
-    console.log('É falso')
-}
 var idade= 20
-if (idade) {
-    console.log('É verdadeiro')
-} else {
-    console.log('É falso')
-}
 var possuiGraduacao = false
-if (possuiGraduacao) {
-    console.log('É verdadeiro')
-} else {
-    console.log('É falso')
-}
 var empregoFuturo
-if (empregoFuturo) {
-    console.log('É verdadeiro')
-} else {
-    console.log('É falso')
-}
 var dinheiroNaConta = 0
-if (dinheiroNaConta) {
-    console.log('É verdadeiro')
-} else {
-    console.log('É falso')
-}
+console.log(!!nome, !!idade, !!possuiGraduacao, !!empregoFuturo, !!dinheiroNaConta) //!! antes das variáveis é um jeito de verificar se um valor é true ou false
 //valores falsos são aqueles '0'; 'undefined'; 'null'; 'NaN'; '""'(string vazia); 'false'
 //valores verdadeiros são todos que são diferentes dos citados acima
 
