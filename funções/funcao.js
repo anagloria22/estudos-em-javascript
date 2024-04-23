@@ -31,3 +31,13 @@ function corFavorita(cor) {
 }
 
 console.log(corFavorita('verde'))
+
+/* Argumentos podem ser funções, quando isso ocorre chamamos de callback.
+Geralmente ocorrem depois de um evento*/
+
+addEventListener('click', function() {
+    console.log('Clicou')
+})
+//essa função tem 2 argumentos
+//primeiro é a string 'click'
+//segundo é uma função anônima
