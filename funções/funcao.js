@@ -68,6 +68,8 @@ function terceiraIdade(idade) {
 
 console.log(terceiraIdade('oi'))
 
+
+
 function precisoVisitar(paisesVisitados) {
     var totalPaises = 193
     return `Ainda faltam ${totalPaises - paisesVisitados} países para você visitar`
@@ -75,3 +77,30 @@ function precisoVisitar(paisesVisitados) {
 
 console.log(totalPaises) //se executarmos essa linha não dá certo, porque não conseguimos ver uma variável que foi definida dentro de uma função, fora dela, pois foi definida localmente
 precisoVisitar(50)
+
+
+//escopo léxico
+var profissao = 'Designer'
+
+function dados() {
+    var nome = 'André'
+    var idade = 28
+    function outrosDados() {
+        var endereco = 'Rio de Janeiro'
+        var idade = 26
+        return `${nome}, ${idade}, ${endereco}, ${profissao}`
+    }
+    return outrosDados()
+}
+
+console.log(dados()) //retorna o return de outrosDados()
+outrosDados() //retorna um erro
+
+//hosting
+imc3 (58, 1.63)
+
+function imc3(peso, altura) {
+    const imc3 = peso / (altura ** 2)
+    console.log(imc3)
+}
+//igual com as variáveis, antes de executar, o js move todas as funções declaradas p/ a memória
