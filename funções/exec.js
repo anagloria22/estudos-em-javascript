@@ -3,8 +3,12 @@ function meuNome (nome, sobrenome) {
     var sobrenome = 'Parente'
     return `${nome} ${sobrenome}`
 }
-
 console.log(meuNome())
+
+/* function nomeCompleto(nome, sobrenome) {
+    return `${nome} ${sobrenenome}`
+}
+*/
 
 function ehParOuNaoEh(numero) {
     if (numero % 2 == 0) {
