@@ -1,10 +1,8 @@
-function verdadeiro () {
-    for (var c = 0; c <= 1; c++) {
-        return 'True da true'
-    }
+function isTruthy (info) {
+    return !!info
 }
 
-console.log(verdadeiro())
+console.log(isTruthy("Oi"))
 
 
 function perímetro(lado) {
