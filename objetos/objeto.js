@@ -24,3 +24,4 @@ Math.random() // retorna um número aleatório
 
 var pi = Math.PI //Math é um objeto nativo de javascript
 console.log(pi) //console é um objeto e log() é um método
+//se no console do navegador colocarmos console.table(quadrado) ele vai organizar numa tabela os dados dessa variável
