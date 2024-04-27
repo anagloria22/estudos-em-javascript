@@ -1,3 +1,19 @@
+function verdadeiro () {
+    for (var c = 0; c <= 1; c++) {
+        return 'True da true'
+    }
+}
+
+console.log(verdadeiro())
+
+
+function perímetro(lado) {
+    return lado * 4
+}
+
+console.log(perímetro(5))
+
+
 function meuNome (nome, sobrenome) {
     var nome = 'Ana Gloria'
     var sobrenome = 'Parente'
@@ -29,7 +45,7 @@ console.log(tipoDado('ana'))
 function mostraMeuNome() {
     console.log('Glorinha')
 }
-addEventListener('scroll', mostraMeuNome())
+addEventListener('click', mostraMeuNome)
 
 
 var totalPaises = 193
