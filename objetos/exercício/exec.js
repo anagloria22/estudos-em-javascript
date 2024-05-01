@@ -22,8 +22,16 @@ carro.preço = 3000
 console.log(carro)
 
 var cachorro = {
-    raça: labrador,
+    raça: 'labrador',
     cor: 'preto',
-    idade: '10 anos',
-    late: true
+    idade: 10,
+    late: function (pessoa) {
+        if (pessoa === 'homem') {
+            return 'latindo'
+        } else {
+            return 'quieto'
+        }
+    }
 }
+
+console.log(cachorro.late('homem'))
