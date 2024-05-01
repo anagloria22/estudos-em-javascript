@@ -61,8 +61,8 @@ console.log(nome) //retorna o valor da variável
 //Números
 var altura = 1.8
 
-altura.toString() //retorna '1.8' transforma numa string
-altura.toFixed() // retorna '2' arredonda
+console.log(altura.toString()) //retorna '1.8' transforma numa string
+console.log(altura.toFixed()) // retorna '2' arredonda
 
 function areaQuadrado(lado) {
     return lado * lado
