@@ -47,3 +47,26 @@ menu.backgroundColor = '#000000'
 console.log(menu.backgroundColor) //retorna #000000
 //quando substituímos o valor de uma propriedade por outro chamamos de Dot Notation Set
 //menu.hasOwnProperty é um método que verifica se tenho determinada propriedade que foi criada dirtamento no objeto, ex.: menu.hasOwnProperty('color')
+
+//Tudo é Objeto
+//Strings, números, boolean e etc possuem propriedades e métodos o que tornam eles objetos
+var nome = 'Ana'
+
+console.log(nome.length) //retorna 5 que é o tamanho da string
+console.log(nome.charAt(1)) //retorna N que é a letra que está na posição 1
+console.log(nome.replace('na', 'ne')) //retorna Ane, já que substitui o na por ne 
+console.log(nome) //retorna o valor da variável
+//uma string herda propriedades e método do construtor String()
+
+//Números
+var altura = 1.8
+
+altura.toString() //retorna '1.8' transforma numa string
+altura.toFixed() // retorna '2' arredonda
+
+function areaQuadrado(lado) {
+    return lado * lado
+}
+
+console.log(areaQuadrado.toString()) //retorna a função em forma de string
+console.log(areaQuadrado.length) //retorna o tanto de argumentos que podemos passar na função
