@@ -46,3 +46,4 @@ menu.esconder = function() {
 menu.backgroundColor = '#000000'
 console.log(menu.backgroundColor) //retorna #000000
 //quando substituímos o valor de uma propriedade por outro chamamos de Dot Notation Set
+//menu.hasOwnProperty é um método que verifica se tenho determinada propriedade que foi criada dirtamento no objeto, ex.: menu.hasOwnProperty('color')
