@@ -26,10 +26,14 @@ var pi = Math.PI //Math é um objeto nativo de javascript
 console.log(pi) //console é um objeto e log() é um método
 //se no console do navegador colocarmos console.table(quadrado) ele vai organizar numa tabela os dados dessa variável
 
+var height = 100
 var menu = {
     width: 800,
     height: 50,
-    backgroundColor: '#ffffff'
+    backgroundColor: '#ffffff',
+    metadeHeight() {
+        return this.height / 2 //se não especificarmos com o this ele vai pegar a que foi definida fora do objeto e se não tiver nenhuma, vai dar erro
+    }
 }
 
 var bg = menu.backgroundColor // vai retornar #ffffff
