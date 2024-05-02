@@ -14,3 +14,11 @@ while (i < 5) {
     console.log(i)
     i++
 }
+
+
+//para acessarmos os itens do vetor e fazer com que apareçam diretamente no console sem que mostre o número, podemos fazer assim:
+var games = ['mario', 'god of war', 'crash', 'lego']
+
+for (var item = 0; item < games.length; item++) {
+    console.log(games[item])
+}
