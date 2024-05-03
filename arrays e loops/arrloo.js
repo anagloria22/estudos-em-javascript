@@ -22,3 +22,15 @@ var games = ['mario', 'god of war', 'crash', 'lego']
 for (var item = 0; item < games.length; item++) {
     console.log(games[item])
 }
+
+for (var item = 0; item < games.length; item++) {
+    console.log(games[item])
+    if(games[item] === 'god of war') {
+        break
+    }
+}
+
+//forEach é um método que executa uma função para cada item do array
+games.forEach(function(){
+    console.log('oi')
+})
