@@ -31,6 +31,6 @@ for (var item = 0; item < games.length; item++) {
 }
 
 //forEach é um método que executa uma função para cada item do array
-games.forEach(function(){
-    console.log('oi')
+games.forEach(function(item){
+    console.log(item)
 })
