@@ -31,7 +31,30 @@ console.log(mes) //retorna junho
 
 //For Loop
 //se utilizarmos var dentro da condição do loop for(que é um bloco), essa variavel vai vazar e vai existir mesmo fora do loop
-for (var i = 0; i < 10; i++) {
+for (var i = 0; i < 10; i++) { //se usarmos let ela não vaza e existe só dentro do loop
     console.log(`Número ${i}`)
 }
 console.log(i)
+
+//Const
+//const mantém o escopo no bloco e impede a redeclaração da variável e alteração no valor
+const mes2 = 'dezembro'
+//mes = 'janeiro' //dá erro pois já foi declarada
+//const semana //dá erro pois foi declarada sem valor
+
+const data = {
+    dia: 28,
+    mes3: 'dezembro',
+    ano: 2018
+}
+
+data.dia = 29
+//data = 'janeiro'
+
+//Let
+//mantém o escopo no bloco, impede a redeclaração, mas permite que o valor da variável seja modificado
+let ano2
+ano2 = 2003
+ano2++
+console.log(ano2)
+let ano = 2020 //dá erro, porque redeclarou a variável
