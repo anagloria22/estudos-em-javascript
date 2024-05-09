@@ -2,22 +2,23 @@
     var cor = 'preto'
     const marca = 'fiat'
     let portas = 4
+    console.log(cor, marca, portas)
 }
 
-//console.log(var, marca, portas) retorna erro por conta do var que nao tem nada
+//console.log(var, marca, portas) // em vez de var teria que ser o nome da variável e esta linha teria que ser dentro do bloco
 
+const dois = 2 //teve que ser posta fora para valer pra todos
 function somarDois(x) {
-    const dois = 2
     return x + dois
 }
 function dividirDois(x) {
-    const dois = 3 //criada esta const p/ corrigir o erro
-    return x + dois
+    return x / dois
 }
 console.log(somarDois(4))
 console.log(dividirDois(6))
 
-var numero = 50
+
+const numero = 50
 
 for (let numero = 0; numero < 10; numero++) { //foi colocado let em vez de var para que o total fosse 500
     console.log(numero)
